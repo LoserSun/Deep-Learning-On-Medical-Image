@@ -1,11 +1,9 @@
 # Deep-Learning-On-Medical-Image
 Paper LIst about Deep Learning on Medical Image
 
-- [x] [Low-dose CT denoising with convolutional neural network](http://arxiv.org/abs/1610.00321v1)  
+## Brain Tumor Segmentation 
 
-> To reduce the potential radiation risk, low-dose CT has attracted much attention. However, simply lowering the radiation dose will lead to significant deterioration of the image quality. In this paper, we propose a noise reduction method for low-dose CT via deep neural network without accessing original projection data. A deep convolutional neural network is trained to transform low-dose CT images towards normal-dose CT images, patch by patch. Visual and quantitative evaluation demonstrates a competing performance of the proposed method.
-
-## Brain Tumor Segmentation Review
+### Review
 
 - [x] [Multimodal Brain MRI Tumor Segmentation via Convolutional Neural Networks]()  (2017,   **\*\*\***)
 
@@ -23,3 +21,34 @@ Paper LIst about Deep Learning on Medical Image
 - [ ] [A survey of MRI-based medical image analysis for brain tumor studies](https://www.researchgate.net/publication/237070108_A_survey_of_MRI-based_medical_image_analysis_for_brain_tumor_studies) (2013, **\*\*\***) 
 
 >MRI-based medical image analysis for brain tumor studies is gaining attention in recent times due to an increased need for efficient and objective evaluation of large amounts of data. While the pioneering approaches applying automated methods for the analysis of brain tumor images date back almost two decades, the current methods are becoming more mature and coming closer to routine clinical application. This review aims to provide a comprehensive overview by giving a brief introduction to brain tumors and imaging of brain tumors first. Then, we review the state of the art in segmentation, registration and modeling related to tumor-bearing brain images with a focus on gliomas. The objective in the segmentation is outlining the tumor including its sub-compartments and surrounding tissues, while the main challenge in registration and modeling is the handling of morphological changes caused by the tumor. The qualities of different approaches are discussed with a focus on methods that can be applied on standard clinical imaging protocols. Finally, a critical assessment of the current state is performed and future developments and trends are addressed, giving special attention to recent developments in radiological tumor assessment guidelines. 
+
+### Generative Models
+
+- [ ] K. Van Leemput, F. Maes, D. Vandermeulen, P. Suetens, "Automated model-based bias field correction of MR images of the brain", *IEEE Trans. Med. Imag.*, vol. 18, no. 10, pp. 885-896, Oct. 1999.  
+- [ ]  M. R. Kaus, S. K. Warfield, A. Nabavi, P. M. Black, F. A. Jolesz, R. Kikinis, "Automated segmentation of MR images of brain tumors", *Radiology*, vol. 218, no. 2, pp. 586-591, Feb. 2001.
+- [ ] M. Prastawa, E. Bullitt, S. Ho, G. Gerig, "A brain tumor segmentation framework based on outlier detection", *Med. Image Anal.*, vol. 8, pp. 275-283, 2004.
+- [ ]  K. M. Pohl, J. Fisher, J. J. Levitt, M. E. Shenton, R. Kikinis, W. E. L. Grimson, W. M. Wells, "A unifying approach to registration segmentation and intensity correction", *Proc. MICCAI*, pp. 310-318, 2005
+- [ ]  F. O. Kaster, B. H. Menze, M.-A. Weber, F. A. Hamprecht, "Comparative validation of graphical models for learning tumor segmentations from noisy manual annotations", *Proc. MICCAI-MCV*, 2010.
+- [ ]  B. Fischl, "Whole brain segmentation: Automated labeling of neuroanatomical structures in the human brain", *Neuron.*, vol. 33, no. 3, pp. 341-355, 2002
+- [ ] J. Ashburner, K. J. Friston, "Unified segmentation", *Neuroimage*, vol. 26, no. 3, pp. 839-851, 2005.
+- [ ]  A. Gooya, "GLISTR: Glioma image segmentation and registration", *IEEE Trans. Med. Imag.*, vol. 31, no. 10, pp. 1941-1954, Oct. 2012.
+
+### Discriminative Models
+
+- [ ] [D. Cobzas, N. Birkbeck, M. Schmidt, M. Jagersand, A. Murtha, "3D variational brain tumor segmentation using a high dimensional feature set", *Proc. ICCV*, pp. 1-8, 2007.](http://ieeexplore.ieee.org/document/4409130/)  (2007, **\*\***)
+- [ ] [S. Ho, E. Bullitt, G. Gerig, "Level-set evolution with region competition: Automatic 3D segmentation of brain tumors", Proc. ICPR, pp. 532-535, 2002.](http://ieeexplore.ieee.org/document/1044788) (2002, **\*\***)
+- [ ] [C. Lee, S. Wang, A. Murtha, R. Greiner, "Segmenting brain tumors using pseudo conditional random fields", Proc. MICCAI, pp. 359-366, 2008.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiMt6KjuvTWAhVFYo8KHQefAVAQFgguMAE&url=https%3A%2F%2Fwebdocs.cs.ualberta.ca%2F~btap%2FPapers%2FChihoon_MICCAI_2008.pdf&usg=AOvVaw0p2lAIDa7wjKiGVZqIRGAo)  (2008, **\*\***)
+- [ ] [S. Bauer, L.-P. Nolte, M. Reyes, "Fully automatic segmentation of brain tumor images using support vector machine classification in combination with hierarchical conditional random field regularization", Proc. MICCAI, pp. 354-361, 2011.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjwjr6nu_TWAhUFtI8KHf8VAbQQFggxMAI&url=http%3A%2F%2Fftp.mauricioreyes.me%2FPublications%2FBauerMiccai2011.pdf&usg=AOvVaw3GVzM3HAks9pcF6nZGMVI2) (2011, **\*\***)
+- [ ] [W. Wu, A. Y. Chen, L. Zhao, J. J. Corso, "Brain tumor detection and segmentation in a conditional random fields framework with pixel-pairwise affinity and superpixel-level features", Int. J. Comput. Assist. Radiol. Surg., pp. 1-13, 2013.]()  (2013, **\*\***)
+
+### CNN-Based Models
+
+
+
+## Others
+
+
+
+- [x] [Low-dose CT denoising with convolutional neural network](http://arxiv.org/abs/1610.00321v1)  
+
+> To reduce the potential radiation risk, low-dose CT has attracted much attention. However, simply lowering the radiation dose will lead to significant deterioration of the image quality. In this paper, we propose a noise reduction method for low-dose CT via deep neural network without accessing original projection data. A deep convolutional neural network is trained to transform low-dose CT images towards normal-dose CT images, patch by patch. Visual and quantitative evaluation demonstrates a competing performance of the proposed method.
