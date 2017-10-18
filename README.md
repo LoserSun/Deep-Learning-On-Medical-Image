@@ -25,13 +25,13 @@ Paper LIst about Deep Learning on Medical Image
 ### Generative Models
 
 - [ ] K. Van Leemput, F. Maes, D. Vandermeulen, P. Suetens, "Automated model-based bias field correction of MR images of the brain", *IEEE Trans. Med. Imag.*, vol. 18, no. 10, pp. 885-896, Oct. 1999.  
-- [ ]  M. R. Kaus, S. K. Warfield, A. Nabavi, P. M. Black, F. A. Jolesz, R. Kikinis, "Automated segmentation of MR images of brain tumors", *Radiology*, vol. 218, no. 2, pp. 586-591, Feb. 2001.
+- [ ] M. R. Kaus, S. K. Warfield, A. Nabavi, P. M. Black, F. A. Jolesz, R. Kikinis, "Automated segmentation of MR images of brain tumors", *Radiology*, vol. 218, no. 2, pp. 586-591, Feb. 2001.
 - [ ] M. Prastawa, E. Bullitt, S. Ho, G. Gerig, "A brain tumor segmentation framework based on outlier detection", *Med. Image Anal.*, vol. 8, pp. 275-283, 2004.
-- [ ]  K. M. Pohl, J. Fisher, J. J. Levitt, M. E. Shenton, R. Kikinis, W. E. L. Grimson, W. M. Wells, "A unifying approach to registration segmentation and intensity correction", *Proc. MICCAI*, pp. 310-318, 2005
-- [ ]  F. O. Kaster, B. H. Menze, M.-A. Weber, F. A. Hamprecht, "Comparative validation of graphical models for learning tumor segmentations from noisy manual annotations", *Proc. MICCAI-MCV*, 2010.
-- [ ]  B. Fischl, "Whole brain segmentation: Automated labeling of neuroanatomical structures in the human brain", *Neuron.*, vol. 33, no. 3, pp. 341-355, 2002
+- [ ] K. M. Pohl, J. Fisher, J. J. Levitt, M. E. Shenton, R. Kikinis, W. E. L. Grimson, W. M. Wells, "A unifying approach to registration segmentation and intensity correction", *Proc. MICCAI*, pp. 310-318, 2005
+- [ ] F. O. Kaster, B. H. Menze, M.-A. Weber, F. A. Hamprecht, "Comparative validation of graphical models for learning tumor segmentations from noisy manual annotations", *Proc. MICCAI-MCV*, 2010.
+- [ ] B. Fischl, "Whole brain segmentation: Automated labeling of neuroanatomical structures in the human brain", *Neuron.*, vol. 33, no. 3, pp. 341-355, 2002
 - [ ] J. Ashburner, K. J. Friston, "Unified segmentation", *Neuroimage*, vol. 26, no. 3, pp. 839-851, 2005.
-- [ ]  A. Gooya, "GLISTR: Glioma image segmentation and registration", *IEEE Trans. Med. Imag.*, vol. 31, no. 10, pp. 1941-1954, Oct. 2012.
+- [ ] A. Gooya, "GLISTR: Glioma image segmentation and registration", *IEEE Trans. Med. Imag.*, vol. 31, no. 10, pp. 1941-1954, Oct. 2012.
 
 ### Discriminative Models
 
@@ -45,6 +45,12 @@ Paper LIst about Deep Learning on Medical Image
 
 
 
+## MICCAI 2017
+
+- [ ] [Transfer Learning for Domain Adaptation in MRI: Application in Brain Lesion Segmentation](http://arxiv.org/abs/1702.07841v1) (2017, **\*\*\*\***)
+
+> Magnetic Resonance Imaging (MRI) is widely used in routine clinical diagnosis and treatment. However, variations in MRI acquisition protocols result in different appearances of normal and diseased tissue in the images. Convolutional neural networks (CNNs), which have shown to be successful in many medical image analysis tasks, are typically sensitive to the variations in imaging protocols. Therefore, in many cases, networks trained on data acquired with one MRI protocol, do not perform satisfactorily on data acquired with different protocols. This limits the use of models trained with large annotated legacy datasets on a new dataset with a different domain which is often a recurring situation in clinical settings. In this study, we aim to answer the following central questions regarding domain adaptation in medical image analysis: Given a fitted legacy model, 1) How much data from the new domain is required for a decent adaptation of the original network?; and, 2) What portion of the pre-trained model parameters should be retrained given a certain number of the new domain training samples? To address these questions, we conducted extensive experiments in white matter hyperintensity segmentation task. We trained a CNN on legacy MR images of brain and evaluated the performance of the domain-adapted network on the same task with images from a different domain. We then compared the performance of the model to the surrogate scenarios where either the same trained network is used or a new network is trained from scratch on the new dataset.The domain-adapted network tuned only by two training examples achieved a Dice score of 0.63 substantially outperforming a similar network trained on the same set of examples from scratch.
+
 ## Others
 
 
@@ -52,3 +58,4 @@ Paper LIst about Deep Learning on Medical Image
 - [x] [Low-dose CT denoising with convolutional neural network](http://arxiv.org/abs/1610.00321v1)  
 
 > To reduce the potential radiation risk, low-dose CT has attracted much attention. However, simply lowering the radiation dose will lead to significant deterioration of the image quality. In this paper, we propose a noise reduction method for low-dose CT via deep neural network without accessing original projection data. A deep convolutional neural network is trained to transform low-dose CT images towards normal-dose CT images, patch by patch. Visual and quantitative evaluation demonstrates a competing performance of the proposed method.
+
