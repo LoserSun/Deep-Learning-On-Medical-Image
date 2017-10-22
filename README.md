@@ -69,11 +69,15 @@ Paper LIst about Deep Learning on Medical Image
 
 
 
-- [ ]  [Brain Tumor Segmentation Using Convolutional Neural Networks in MRI Images](http://ieeexplore.ieee.org/document/7426413/)
+- [ ] [Brain Tumor Segmentation Using Convolutional Neural Networks in MRI Images](http://ieeexplore.ieee.org/document/7426413/)
 
 > Among brain tumors, gliomas are the most common and aggressive, leading to a very short life expectancy in their highest grade. Thus, treatment planning is a key stage to improve the quality of life of oncological patients. Magnetic resonance imaging (MRI) is a widely used imaging technique to assess these tumors, but the large amount of data produced by MRI prevents manual segmentation in a reasonable time, limiting the use of precise quantitative measurements in the clinical practice. So, automatic and reliable segmentation methods are required; however, the large spatial and structural variability among brain tumors make automatic segmentation a challenging problem. In this paper, we propose an automatic segmentation method based on Convolutional Neural Networks (CNN), exploring small 3 ×3 kernels. The use of small kernels allows designing a deeper architecture, besides having a positive effect against overfitting, given the fewer number of weights in the network. We also investigated the use of intensity normalization as a pre-processing step, which though not common in CNN-based segmentation methods, proved together with data augmentation to be very effective for brain tumor segmentation in MRI images. Our proposal was validated in the Brain Tumor Segmentation Challenge 2013 database (BRATS 2013), obtaining simultaneously the first position for the complete, core, and enhancing regions in Dice Similarity Coefficient metric (0.88, 0.83, 0.77) for the Challenge data set. Also, it obtained the overall first position by the online evaluation platform. We also participated in the on-site BRATS 2015 Challenge using the same model, obtaining the second place, with Dice Similarity Coefficient metric of 0.78, 0.65, and 0.75 for the complete, core, and enhancing regions, respectively.
 
 
+
+- [ ] [Automatic Brain Tumor Detection and Segmentation Using U-Net Based Fully Convolutional Networks](https://arxiv.org/pdf/1705.03820.pdf)
+
+> A major challenge in brain tumor treatment planning and quantitative evaluation is determination of the tumor extent. The noninvasive magnetic resonance imaging (MRI) technique has emerged as a front-line diagnostic tool for brain tumors without ionizing radiation. Manual segmentation of brain tumor extent from 3D MRI volumes is a very time-consuming task and the performance is highly relied on operator's experience. In this context, a reliable fully automatic segmentation method for the brain tumor segmentation is necessary for an efficient measurement of the tumor extent. In this study, we propose a fully automatic method for brain tumor segmentation, which is developed using U-Net based deep convolutional networks. Our method was evaluated on Multimodal Brain Tumor Image Segmentation (BRATS 2015) datasets, which contain 220 high-grade brain tumor and 54 low-grade tumor cases. Cross-validation has shown that our method can obtain promising segmentation efficiently.
 
 ## MICCAI 2017
 
