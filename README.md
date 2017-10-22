@@ -75,7 +75,7 @@ Paper LIst about Deep Learning on Medical Image
 
 
 
-- [ ] [Automatic Brain Tumor Detection and Segmentation Using U-Net Based Fully Convolutional Networks](https://arxiv.org/pdf/1705.03820.pdf)
+- [x] [Automatic Brain Tumor Detection and Segmentation Using U-Net Based Fully Convolutional Networks](https://arxiv.org/pdf/1705.03820.pdf)
 
 > A major challenge in brain tumor treatment planning and quantitative evaluation is determination of the tumor extent. The noninvasive magnetic resonance imaging (MRI) technique has emerged as a front-line diagnostic tool for brain tumors without ionizing radiation. Manual segmentation of brain tumor extent from 3D MRI volumes is a very time-consuming task and the performance is highly relied on operator's experience. In this context, a reliable fully automatic segmentation method for the brain tumor segmentation is necessary for an efficient measurement of the tumor extent. In this study, we propose a fully automatic method for brain tumor segmentation, which is developed using U-Net based deep convolutional networks. Our method was evaluated on Multimodal Brain Tumor Image Segmentation (BRATS 2015) datasets, which contain 220 high-grade brain tumor and 54 low-grade tumor cases. Cross-validation has shown that our method can obtain promising segmentation efficiently.
 
